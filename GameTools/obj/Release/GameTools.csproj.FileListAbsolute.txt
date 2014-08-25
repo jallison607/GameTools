@@ -1,0 +1,5 @@
+F:\Visual Studio 2010 Projects\GameTools\GameTools\bin\Release\GameTools.dll
+F:\Visual Studio 2010 Projects\GameTools\GameTools\bin\Release\GameTools.pdb
+F:\Visual Studio 2010 Projects\GameTools\GameTools\obj\Release\ResolveAssemblyReference.cache
+F:\Visual Studio 2010 Projects\GameTools\GameTools\obj\Release\GameTools.dll
+F:\Visual Studio 2010 Projects\GameTools\GameTools\obj\Release\GameTools.pdb
