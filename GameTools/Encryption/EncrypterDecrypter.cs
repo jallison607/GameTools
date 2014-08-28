@@ -12,6 +12,9 @@ namespace GameTools.Encryption
         private int encryptionLevel = 256;
         private int MaxRange = 256;
 
+        /// <summary>
+        /// Constructor that generates random key
+        /// </summary>
         public EncrypterDecrypter()
         {
             int i = 0;
@@ -26,6 +29,14 @@ namespace GameTools.Encryption
 
         }
 
+        /// <summary>
+        /// Constructor used to specify the delimited key on construct
+        /// </summary>
+        /// <param name="key"></param>
+        public EncrypterDecrypter(string key)
+        {
+            this.setKey(key);
+        }
 
         public string encrypt(string str)
         {
@@ -212,6 +223,11 @@ namespace GameTools.Encryption
             return text;
         }
 
+        /// <summary>
+        /// Save a Delimited Key to the specified file
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
         public bool saveKeyToFile(string fileName)
         {
             bool success = false;
